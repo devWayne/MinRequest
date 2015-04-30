@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build":"browserify  index.js  > dist/ajax.js"
+    "build":"browserify  index.js  > dist/ajax.js",
+    "build-min":"browserify index.js | uglifyjs > dist/ajax.min.js"
   },
   "repository": {
     "type": "git",
