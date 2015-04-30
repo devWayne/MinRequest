@@ -1,0 +1,23 @@
+{
+  "name": "min-req",
+  "version": "1.0.0",
+  "description": "min request module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build":"browserify  index.js  > dist/ajax.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devWayne/MinRequest.git"
+  },
+  "keywords": [
+    "request"
+  ],
+  "author": "Vi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devWayne/MinRequest/issues"
+  },
+  "homepage": "https://github.com/devWayne/MinRequest"
+}
