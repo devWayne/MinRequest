@@ -29,7 +29,7 @@ ajax(option);
   - `type` (`String`)(defaults to `GET`)
   - `url` (`String`) 
   - `data` (`Object`) ajax parameters
-  - `dataType` (`String`) when ajax is a jsonp request,dataType should set as `jsonp`
-  - `jsonp` only used when dataType is `jsonp` (defaults to `callback`)
+  - `dataType` (`String`) when ajax is a jsonp request,dataType should set as `jsonp`.
+  - `jsonp` only used when dataType is `jsonp` (defaults to `callback`).
   - `timeout` (`Number`) how long after a timeout error is emitted. (defaults to `60000`)
   - `success` (`Function`) name of the callback functions when ajax success
